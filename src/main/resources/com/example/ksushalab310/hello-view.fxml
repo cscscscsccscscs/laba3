@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="543.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+<VBox prefHeight="543.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ksushalab310.HelloController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -61,7 +61,7 @@
           <columnResizePolicy><TableView fx:constant="CONSTRAINED_RESIZE_POLICY" /></columnResizePolicy>
           <columns>
             <TableColumn fx:id="column_num" prefWidth="99.99999849796313" text="ID" />
-            <TableColumn fx:id="column_type" prefWidth="90.62395477294922" text="Факультет" />
+            <TableColumn fx:id="column_faculty" prefWidth="90.62395477294922" text="Факультет" />
             <TableColumn fx:id="column_group" prefWidth="112.89599609375" text="Группа" />
             <TableColumn fx:id="column_course" prefWidth="105.9840087890625" text="Курс" />
             <TableColumn fx:id="column_count_stud" prefWidth="99.99999849796313" text="Кол-во студентов" />
