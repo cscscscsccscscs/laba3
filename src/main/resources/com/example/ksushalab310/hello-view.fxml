@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="543.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ksushalab310.HelloController">
+<VBox prefHeight="543.0" prefWidth="900.0" styleClass="background" stylesheets="@darkTheme.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ksushalab310.HelloController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -68,7 +68,7 @@
             <TableColumn fx:id="column_count_group" prefWidth="99.99999849796313" text="Кол-во подгрупп" />
           </columns>
         </TableView>
-        <AnchorPane maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="526.0" prefWidth="480.0">
+        <AnchorPane maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="526.0" prefWidth="480.0" styleClass="background" stylesheets="@darkTheme.css">
           <children>
             <Label fx:id="l_num" alignment="CENTER" layoutX="14.0" layoutY="14.0" style="&#10;" text="Запись №1" textAlignment="CENTER" wrapText="false" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="20.0">
               <font>
@@ -99,7 +99,7 @@
                 <Font size="14.0" fx:id="x111112" />
               </font>
             </Label>
-            <HBox layoutX="233.0" layoutY="484.0" prefHeight="28.0" prefWidth="247.0" AnchorPane.topAnchor="484.0">
+            <HBox layoutX="233.0" layoutY="484.0" prefHeight="28.0" prefWidth="247.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="484.0">
               <children>
                 <Button mnemonicParsing="false" onAction="#add" text="Добавить" />
                 <Button mnemonicParsing="false" onAction="#edit" text="Редактировать" />
