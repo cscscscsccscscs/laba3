@@ -12,6 +12,10 @@ public class Groups {
         this.count_group = count_group;
     }
 
+    public Groups(){
+
+    }
+
     public String getId() {
         return id;
     }

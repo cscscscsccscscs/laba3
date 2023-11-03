@@ -14,6 +14,8 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 600);
+        HelloController controller = fxmlLoader.getController();
+        controller.getStage(stage);
         stage.setTitle("Лабораторная 1.6");
         stage.getIcons().add(new Image(Objects.requireNonNull(HelloApplication.class.getResourceAsStream("/com/example/ksushalab310/images/logo.png"))));
         stage.setScene(scene);
